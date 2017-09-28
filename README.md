@@ -6,7 +6,9 @@ Most walkthroughs for running a static website in Docker are quite complicated. 
 ## Steps:
 1. Input path to root directory in Dockerfile replacing /Users/jimsmith/Documents/docker-test-site/. The easiest way to do this in a mac is to drag and drop directory from Finder to Terminal to show this, then copy and paste into Dockerfile.
 
-2. Build new image in root:
+2. Build new image:
+    
+    (from root directory in CLI)
 
     $ docker build -t image_name .
 
